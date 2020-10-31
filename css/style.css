@@ -5,11 +5,15 @@
           box-sizing: border-box;
 }
 
-section {
+.digi-clock-section, .read-more-section {
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -38,16 +42,6 @@ section {
 body {
   background: #fefefe;
   font-family: "Montserrat", "sans-serif";
-  min-height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .clock-container {
@@ -118,5 +112,35 @@ body {
   .clock-col:before, .clock-col:after {
     display: none;
   }
+}
+
+.container {
+  width: 500px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  font-family: sans-serif;
+  color: #505050;
+  -webkit-box-shadow: 0 0 25px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 25px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+  margin-bottom: 10px;
+  font-family: "Montserrat";
+  color: #009f9f;
+}
+
+button {
+  border: none;
+  outline: none;
+  background: #009f9f;
+  color: #fefefe;
+  margin-top: 20px;
+  padding: 5px 10px;
+}
+
+#more {
+  display: none;
 }
 /*# sourceMappingURL=style.css.map */

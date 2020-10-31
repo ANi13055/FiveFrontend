@@ -1,0 +1,28 @@
+.container {
+	width: 500px;
+	background: #fff;
+	padding: 30px;
+	border-radius: 15px;
+	font-family: sans-serif;
+	color: #505050;
+	box-shadow: 0 0 25px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+	margin-bottom: 10px;
+	font-family: "Montserrat";
+	color: #009f9f;
+}
+
+button {
+	border: none;
+	outline: none;
+	background: #009f9f;
+	color: #fefefe;
+	margin-top: 20px;
+	padding: 5px 10px;
+}
+
+#more {
+	display: none;
+}

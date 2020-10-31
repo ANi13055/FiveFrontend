@@ -4,12 +4,18 @@
 	box-sizing: border-box;
 }
 
-section {
+.digi-clock-section {
 	height: 100vh;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
 
+.read-more-section {
+	@extend .digi-clock-section;
+}
+
 /* Create different style components */
 @import "scss/clock";
+@import "scss/readmore";
